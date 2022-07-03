@@ -21,4 +21,9 @@ class Substance extends Model
     {
         return $this->belongsTo(Commune::class);
     }
+
+    public function exploitation3()
+    {
+        return $this->hasMany(Exploitation3::class);
+    }
 }

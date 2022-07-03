@@ -31,8 +31,7 @@ class Entreprise extends Component
 
    public function mount()
    {
-
-         $this->entreprise = ModelsEntreprise::all();
+     $this->entreprise = ModelsEntreprise::all();
    }
 
    public $listeners = [

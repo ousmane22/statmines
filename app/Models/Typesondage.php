@@ -10,6 +10,7 @@ class Typesondage extends Model
     use HasFactory;
 
     protected $guaerded =[];
+
     public function exploitation1()
     {
         return $this->hasMany(Exploitation1::class);

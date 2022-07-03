@@ -17,8 +17,9 @@ class Listeminier extends Component
         'getFormulaireId'
     ];
 
-    public function getFormulaireId()
+    public function getFormulaireId(Formulaire $formulaire)
     {
+
     }
 
     public function render()
